@@ -1,5 +1,7 @@
 //@ts-check
 
+function setup() {
+
 let btnBox = document.getElementById("box")
 let btnCircle = document.getElementById("circle")
 let btnArrow = document.getElementById("arrow")
@@ -14,4 +16,6 @@ function create() {
     btnBox.style.color = "white";
 
 document.getElementById("main").appendChild(btnBox);
+}
+
 }
