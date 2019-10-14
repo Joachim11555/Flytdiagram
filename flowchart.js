@@ -13,5 +13,5 @@ function create() {
     btnBox.style.background = "red";
     btnBox.style.color = "white";
 
-document.getElementById("main").appendChild(div);
+document.getElementById("main").appendChild(btnBox);
 }
