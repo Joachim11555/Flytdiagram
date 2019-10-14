@@ -8,10 +8,10 @@ btnBox.addEventListener("click", create)
 
 function create() {
     let btnBox = document.createElement("div");
-    div.style.width = "100px";
-    div.style.height = "100px";
-    div.style.background = "red";
-    div.style.color = "white";
+    btnBox.style.width = "100px";
+    btnBox.style.height = "100px";
+    btnBox.style.background = "red";
+    btnBox.style.color = "white";
 
 document.getElementById("main").appendChild(div);
 }
