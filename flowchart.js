@@ -1,7 +1,11 @@
 //@ts-check
 
-let btnCreate = document.getElementById("create")
+let btnBox = document.getElementById("box")
+let btnCircle = document.getElementById("circle")
+let btnArrow = document.getElementById("arrow")
 
-btnCreate.addEventListener("click", create)
+btnBox.addEventListener("click", create)
 
-function create ("click", )
+function create() {
+    let 
+}
