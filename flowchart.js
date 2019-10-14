@@ -7,10 +7,10 @@ let btnArrow = document.getElementById("arrow")
 btnBox.addEventListener("click", create)
 
 function create() {
-    let div = document.createElement("div");
+    let btnBox = document.createElement("div");
     div.style.width = "100px";
     div.style.height = "100px";
-    div.style.background = "grey";
+    div.style.background = "red";
     div.style.color = "white";
 
 document.getElementById("main").appendChild(div);
