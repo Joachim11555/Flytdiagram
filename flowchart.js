@@ -38,12 +38,16 @@ class Figur {
        this.h = 100;
        this.tekst.innerHTML = "insert text";
        this.div.className = type;
-
-    render()
+    
+    render() {
         let s = this.div.style;
         s.top = this.y + "px";
         s.left = this.x + "px";
+        s.height = this.h + "px";
+        s.width = this.w + "px";
     }
+
+}
 }
 
 function create() {
